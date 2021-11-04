@@ -1,160 +1,153 @@
-body{
-    font-family: 'Montserrat';
+body {
+	font-family: 'Montserrat';
 }
 
-#title{
-    background-color: #ff4c68;
-    color: #ffff;
+#title {
+	background-color: #ff4c68;
+	color: #ffff;
 }
-.container-fluid{
-    padding: 3% 15% 7%;
-}
-
-h1{
-    font-family: 'Montserrat',sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-h2{
-    font-family: 'Montserrat',sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
+.container-fluid {
+	padding: 3% 15% 7%;
 }
 
-h3{
-    font-family:'Montserrat',sans-serif ;
+a:hover {
+	cursor: pointer;
 }
 
-p{
-    color: #8f8f8f;
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
 }
 
+h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	color: #8f8f8f;
+}
 
 /* Navigation bar */
-.navbar{
-    padding:0 0 4.5rem;
+.navbar {
+	padding: 0 0 4.5rem;
 }
-.navbar-brand{
-    font-family:'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
 }
-.nav-item{
-    padding: 0 18px ;
+.nav-item {
+	padding: 0 18px;
 }
-.nav-link{
-    font-size: 1.2rem;
-    font-family: 'Montserrat',sans-serif;
+.nav-link {
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
 }
 /* Download button  */
-.download-button{
-    margin: 5% 3% 5% 0;
-} 
+.download-button {
+	margin: 5% 3% 5% 0;
+}
 /* Title image  */
-.title-img{
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
-    
-    
+.title-img {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
 }
 
 /* features section */
-#features{
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    z-index:1;
-    
+#features {
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
 }
-    
-.feature-box{
-    text-align: center;
-    padding: 5%;
+
+.feature-box {
+	text-align: center;
+	padding: 5%;
 }
-.icon{
-    color: #EF8172;
-    margin-bottom: 1rem;
+.icon {
+	color: #ef8172;
+	margin-bottom: 1rem;
 }
-.icon:hover{
-    color: #ff4c68;
+.icon:hover {
+	color: #ff4c68;
 }
 
 /* testimonial section */
-#testimonials{
-    text-align: center;
-    background-color: #EF8172;
-    color: #ffff;
+#testimonials {
+	text-align: center;
+	background-color: #ef8172;
+	color: #ffff;
 }
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
 }
-.carousel-item{
-    padding: 7% 15%;
+.carousel-item {
+	padding: 7% 15%;
 }
 
-
-#press{
-    text-align: center;
-    background-color: #EF8172;
-    padding-bottom: 3%; 
+#press {
+	text-align: center;
+	background-color: #ef8172;
+	padding-bottom: 3%;
 }
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
 }
 
 /* pricing section */
-#pricing{
-    padding: 100px;
-    text-align: center;
+#pricing {
+	padding: 100px;
+	text-align: center;
 }
-.pricing-col{
-    padding: 3% 2%;
+.pricing-col {
+	padding: 3% 2%;
 }
 
 /* cta section */
-#cta{
-    background-color:#ff4c68 ;
-color: #fff;
-padding: 7% 15%;
-text-align: center;
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+	padding: 7% 15%;
+	text-align: center;
 }
-.ctn-head{
-    font-family:'Montserrat',sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
+.ctn-head {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
 }
 
 /* footer section */
-#footer{
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #fff;
-
+#footer {
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #fff;
 }
-.social{
-    margin: 20px 10px;
-}
-
-
-
-@media (max-width:1028px) {
-
-#title{
-    text-align: center;
-}
-.title-img{
-    position: static;
-    transform: rotate(0);
-}
-}
-.last{
-    font-family: 'Montserrat',sans-serif;
-    color: black;
+.social {
+	margin: 20px 10px;
 }
 
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+	.title-img {
+		position: static;
+		transform: rotate(0);
+	}
+}
+.last {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
